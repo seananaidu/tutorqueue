@@ -1,0 +1,20 @@
+Reserved class name usage
+-----
+<?php
+class Int {}
+-----
+Reserved name "int" used as a class, interface or trait name
+-----
+<?php
+class int {}
+-----
+Reserved name "int" used as a class, interface or trait name
+-----
+<?php
+class inT {}
+-----
+Reserved name "int" used as a class, interface or trait name
+-----
+<?php
+class Dummy {}
+-----

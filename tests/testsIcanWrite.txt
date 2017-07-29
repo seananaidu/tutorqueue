@@ -1,0 +1,103 @@
+Folder PATH listing for /application
+// the application uses a model-view-controller pattern
+// the view folder contains classes that display information to the web browser
+// events called from the views call functions in the controller folder
+// the function calls in the controller folder call functions in the model
+// can I even edit this?
+     
+Folder: config
+    -     config.development.php    // contains string replacements and login credentials for mysql server; !!I can write a variety of gets here to make sure the array is working
+    -     texts.php                              // error and message string array
+    -     
+Folder: controller
+    -     AdminController.php                       // 
+    -     ErrorController.php
+    -     GreeterController.php
+    -     HelpRequestController.php
+    -     IndexController.php
+    -     LoginController.php
+    -     RequestRedirectController.php
+    -     StudentController.php
+    -     TutorController.php
+    -     
+Folder: core
+    -     Application.php
+    -     Auth.php
+    -     Config.php
+    -     Controller.php
+    -     Csrf.php
+    -     DatabaseFactory.php
+    -     Encryption.php
+    -     Environment.php
+    -     Filter.php
+    -     Mail.php
+    -     Redirect.php // might be able to test this by piping output to stderr
+    -     Request.php
+    -     Session.php
+    -     Text.php
+    -     View.php
+    -     
+Folder: model
+    -     AdminModel.php
+    -     GreeterModel.php
+    -     HelpRequestModel.php
+    -     IndexModel.php
+    -     LoginModel.php
+    -     PasswordResetModel.php
+    -     RegistrationModel.php
+    -     RequestRedirectModel.php
+    -     StudentModel.php
+    -     TutorModel.php
+    -     UserModel.php
+    -     
+Folder: view    // the classes in this folder handle accepting input and displaying data
+        Subfolder: admin
+            -     dataDump.php
+            -     editAccounts.php
+            -     editDropDowns.php
+            -     editDropDownsBackup.php
+            -     editPageTimeouts.php
+            -     index.php
+            -     uploadSchdView.php
+            -     uploadSchedule.php
+            -     
+        Subfolder: error
+            -     404.php
+            -     
+        Subfolder: greeter
+            -     editView.php
+            -     index.php
+            -     updateTable.php
+            -     updateTable2.php
+            -     
+       Subfolder: index
+            -     bakupdateTable.php
+            -     index.php
+            -     updateTable.php
+            -     updateTable2.php
+            -     
+        Subfolder: login
+            -     changePassword.php
+            -     index.php
+            -     register.php
+            -     resetPassword.php
+            -     showProfile.php
+            -     verify.php
+            -     
+       Subfolder: student
+            -     index.php
+            -     populateSubSubj.php
+            -     RequestRedirect.php
+            -     TableSetup.php
+            -     updateTableSetup.php
+            -     
+        Subfolder: tutor
+            -     bakupdateTableTutors.php
+            -     index.php
+            -     updateTableTutors.php
+            -     
+        Subfolder: templates
+            -     feedback.php
+            -     footer.php
+            -     header.php
+            

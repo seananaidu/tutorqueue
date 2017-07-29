@@ -1,0 +1,20 @@
+Reserved interface name usage
+-----
+<?php
+interface Bool {}
+-----
+Reserved name "bool" used as a class, interface or trait name
+-----
+<?php
+interface bool {}
+-----
+Reserved name "bool" used as a class, interface or trait name
+-----
+<?php
+interface bOOl {}
+-----
+Reserved name "bool" used as a class, interface or trait name
+-----
+<?php
+interface Dummy {}
+-----
