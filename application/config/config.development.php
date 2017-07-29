@@ -5,7 +5,7 @@
  * To create another configuration set just copy this
  * file to config.production.php
  */
-
+// adding a thing that should be ignored
 /**
  * @Configuration Error reporting
  * @Description Show every problem during development.
